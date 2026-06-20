@@ -1,5 +1,5 @@
-// 1. CONFIGURACIÓN DE SUPABASE (CON TU URL Y CLAVE REALES)
-const SUPABASE_URL = "https://plrefeggntrovchvbdizw.supabase.co"; 
+// 1. CONFIGURACIÓN DE SUPABASE (SIN LA LETRA 'N' INCORRECTA)
+const SUPABASE_URL = "https://plrefeggtrovchvbdizw.supabase.co"; 
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBscmVmZWdndHJvdmNodmJkaXp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM2OTE2MzksImV4cCI6MjA4OTI2NzYzOX0.Qa0kDfBu0ofWOBPPZuYqBisfRNY9plkf6JqY4BneSu8"; 
 
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
